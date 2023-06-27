@@ -1,0 +1,41 @@
+git init: Initializes a new Git repository in the current directory.
+
+git clone <repository>: Creates a local copy of a remote repository.
+
+git add <file>: Adds a file or changes to the staging area (index) to be committed.
+
+git status: Shows the current status of your Git repository, including any untracked, modified, or staged files.
+
+git commit -m "Commit message": Commits the staged changes to the repository with a descriptive message.
+
+git push: Pushes the committed changes to a remote repository.
+
+git pull: Fetches and merges changes from a remote repository into the current branch.
+
+git branch: Lists all branches in the repository.
+
+git branch <branch-name>: Creates a new branch.
+
+git checkout <branch-name>: Switches to the specified branch.
+
+git merge <branch-name>: Merges changes from the specified branch into the current branch.
+
+git log: Displays the commit history of the repository.
+
+git remote: Lists the remote repositories associated with the local repository.
+
+git remote add <remote-name> <remote-url>: Adds a new remote repository.
+
+git remote remove <remote-name>: Removes a remote repository.
+
+git diff: Shows the differences between the working directory and the staging area.
+
+git reset <file>: Unstages a file, removing it from the staging area.
+
+git checkout -- <file>: Discards changes in a file and reverts it to the last committed version.
+
+git stash: Temporarily saves changes that are not ready to be committed.
+
+git tag: Lists all tags in the repository.
+
+git tag <tag-name>: Creates a new tag at the current commit.
